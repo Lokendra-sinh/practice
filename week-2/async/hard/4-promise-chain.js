@@ -47,3 +47,7 @@ function customPromiseAll(){
 
 const startTime = new Date().getTime();
 customPromiseAll();
+
+
+//comparing 3 and 4, we observed that Promise.all takes less time to resolve all three promises this is because while sequentially exeucting promises, we are waiting for the promise to get resolved and only then we're moving onto the next promise.
+//promise.all involves parallelism while promise-chain involves sequential execution.
