@@ -53,3 +53,4 @@ customPromiseAll();
 //promise.all involves parallelism while promise-chain involves sequential execution.
 
 //there was a 3s time difference between promise-all and promise-chain
+//modifications done in forked copy
